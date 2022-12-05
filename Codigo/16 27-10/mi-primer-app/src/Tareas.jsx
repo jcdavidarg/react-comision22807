@@ -1,8 +1,7 @@
+import React from "react";
 
-function Tareas ({resuelto}){
-return (
-    <p>{ resuelto ? "Resuelto ✔️" : "Sin Realizar ​❌​" } </p>
-    )
-}
+const Tareas = ({ resuelto }) => {
+  return <p>{resuelto ? "Resuelto ✔️" : "Sin Realizar ❌"}</p>;
+};
 
-export default Tareas
+export default Tareas;
