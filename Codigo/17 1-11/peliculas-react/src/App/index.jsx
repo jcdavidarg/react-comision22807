@@ -1,12 +1,14 @@
-import { PeliculasGrid } from '../PeliculasGrid';
-import './App.css';
+import "../App/App.css";
+import { PeliculasGrid } from "../PeliculasGrid";
 
 function App() {
   return (
-    <div >
+    <div>
       <header className="title">Peliculas</header>
       <main>
-        <PeliculasGrid/>
+        <>
+          <PeliculasGrid />
+        </>
       </main>
     </div>
   );
